@@ -5,6 +5,7 @@ I’m writing to express my interest in Software Development Engineer roles. Ove
 In my recent role at Continental, I designed and maintained backend services powering six production lines, using Python and C++. These systems improved real-time data accuracy by approximately 50%, helping reduce downtime and improve consistency. I also engineered ICONICS and DOPAC dashboards that nearly halved manual QA efforts, enabling teams to monitor and address issues live, rather than waiting for periodic checks.
 
 I also gained international exposure during workshops in Germany, China, and Thailand—delivering SCADA dashboard integrations that reduced information lag by ~40%. Those experiences strengthened my ability to work effectively across teams and locations.
+
 Key Highlights:
 
 -Reliable data systems: Built Python and C++ backend services for six production lines, boosting real-time data accuracy by ~50%.
