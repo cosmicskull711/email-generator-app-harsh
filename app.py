@@ -5,11 +5,13 @@ from googleapiclient.discovery import build
 import base64
 import csv
 import os
+import json
 
 # === Gmail API Email Sending Function ===
 def send_email_via_gmail(subject, body, recipient):
     try:
-        creds = Credentials.from_authorized_user_file('token.json', ['https://www.googleapis.com/auth/gmail.send'])
+        token_info = json.loads(st.secrets["token"])  # 🔐 Secure token from Streamlit secrets
+        creds = Credentials.from_authorized_user_info(token_info, ['https://www.googleapis.com/auth/gmail.send'])
         service = build('gmail', 'v1', credentials=creds)
 
         message = MIMEText(body)
@@ -55,15 +57,11 @@ st.set_page_config(
     initial_sidebar_state='collapsed'
 )
 
-# OPTIONAL BACKGROUND IMAGE — skip if not needed
-
 st.header("Generate & Send Emails 📧")
 
-# ✅ Use relative path for deployment
 form_content_file = "email_template.txt"
 default_text = read_content_from_file(form_content_file)
 
-# Prefill the text area with editable content
 form_input = st.text_area('Enter the email topic or message', value=default_text, height=275)
 
 col1, col2 = st.columns(2)
@@ -71,7 +69,7 @@ with col1:
     email_sender = st.text_input('Sender Name')
     email_subject = st.text_input('Email Subject')
 with col2:
-    email_csv_file = "emails.csv"  # must also be in repo
+    email_csv_file = "emails.csv"
     email_recipients = read_recipients_from_csv(email_csv_file)
     email_style = st.selectbox(
         'Writing Style',
@@ -79,7 +77,6 @@ with col2:
         index=0
     )
 
-# Session state to track email generation
 if "email_body" not in st.session_state:
     st.session_state.email_body = ""
 if "email_ready" not in st.session_state:
