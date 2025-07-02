@@ -1,0 +1,2 @@
+subject,message
+Welcome to our service,"Hi there,\n\nThank you for joining us.\n\nBest,\nTeam"
