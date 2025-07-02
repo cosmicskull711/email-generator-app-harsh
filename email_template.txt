@@ -8,22 +8,34 @@ I also gained international exposure during workshops in Germany, China, and Tha
 Key Highlights:
 
 -Reliable data systems: Built Python and C++ backend services for six production lines, boosting real-time data accuracy by ~50%.
+
 -QA automation: Created ICONICS/DOPAC dashboards that cut manual QA time by ~45% through live analytics.
+
 -Edge and control integration: Implemented the COUGAR® system at three facilities to improve data capture by ~50%, and developed an edge-pipeline to monitor tire weight, raising accuracy by ~30%.
+
 -Performance optimization: Upgraded control logic (IPC → PLC) to increase throughput by 15% and reduce latency by 20%.
+
 -End-to-end delivery: Followed full SDLC cycles, managed Agile sprints in Jira, and earned recognition among Continental’s Top 12 Strategic Projects.
 
 What I bring:
 
--Proficient in Python, C++, OPC-UA, dashboard tools, PLC/IPC logic, and edge-device pipelines
--A structured, Agile-friendly approach with a focus on deployment-ready solutions
--A mindset geared toward building dependable, maintainable software—not just flashy features
+-Proficient in Python, C++, OPC-UA, dashboard tools, PLC/IPC logic, and edge-device pipelines.
+
+-A structured, Agile-friendly approach with a focus on deployment-ready solutions.
+
+-A mindset geared toward building dependable, maintainable software—not just flashy features.
+
 
 I’d appreciate the opportunity to discuss how my practical skills can support your engineering goals. Thanks for your time and consideration.
 
 Best regards,
+
 Harsh Dubey
+
 harshdubey082001@gmail.com 
+
 +91-9810350598
+
 Linkdin: linkedin.com/in/harsh-dubey-1b169a242
+
 Resume: https://drive.google.com/file/d/1T6Bf7OaALLAddFTFwKQ6Ctu3jidHuewa/view?usp=drive_link
