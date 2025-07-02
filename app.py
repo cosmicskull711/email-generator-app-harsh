@@ -10,7 +10,7 @@ import json
 # === Gmail API Email Sending Function ===
 def send_email_via_gmail(subject, body, recipient):
     try:
-        token_info = json.loads(st.secrets["token"])  # 🔐 Secure token from Streamlit secrets
+        token_info = json.loads(st.secrets["token"])
         creds = Credentials.from_authorized_user_info(token_info, ['https://www.googleapis.com/auth/gmail.send'])
         service = build('gmail', 'v1', credentials=creds)
 
@@ -22,9 +22,9 @@ def send_email_via_gmail(subject, body, recipient):
         message = {'raw': raw}
 
         sent_message = service.users().messages().send(userId="me", body=message).execute()
-        return f"Email sent successfully to {recipient}! ID: {sent_message['id']}"
+        return f"✅ Email sent to {recipient}! ID: {sent_message['id']}"
     except Exception as e:
-        return f"Failed to send email to {recipient}: {str(e)}"
+        return f"❌ Failed to send email to {recipient}: {str(e)}"
 
 # === Read Emails from CSV ===
 def read_recipients_from_csv(filename):
