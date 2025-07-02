@@ -1,4 +1,3 @@
-email
 Dear Hiring Manager,
 
 I’m writing to express my interest in Software Development Engineer roles. Over the past year, I’ve worked as a practical and reliable developer in industrial environments, building production-ready systems that teams depend on daily. My focus has always been on writing clear, maintainable code that supports essential operations without unnecessary complexity.
