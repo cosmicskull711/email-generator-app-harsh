@@ -1,13 +1,14 @@
 import streamlit as st
+import base64
+import os
+import csv
+import json
 from email.mime.text import MIMEText
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
-import base64
-import csv
-import os
-import json
+from googleapiclient.errors import HttpError
 
-# === Gmail API Email Sending Function ===
+# === Send Email via Gmail ===
 def send_email_via_gmail(subject, body, recipient):
     try:
         token_info = json.loads(st.secrets["token"])
@@ -23,6 +24,13 @@ def send_email_via_gmail(subject, body, recipient):
 
         sent_message = service.users().messages().send(userId="me", body=message).execute()
         return f"✅ Email sent to {recipient}! ID: {sent_message['id']}"
+
+    except HttpError as e:
+        error_reason = e._get_reason().lower()
+        if "rate limit" in error_reason or "quota" in error_reason or "daily limit" in error_reason:
+            return f"❌ API limit reached: {error_reason}"
+        return f"❌ Failed to send email to {recipient}: {error_reason}"
+
     except Exception as e:
         return f"❌ Failed to send email to {recipient}: {str(e)}"
 
@@ -93,7 +101,15 @@ if st.session_state.email_ready:
 
     if st.button("Send Email via Gmail"):
         with st.spinner("Sending Email..."):
-            results = [send_email_via_gmail(email_subject, st.session_state.email_body, recipient) for recipient in email_recipients]
-            for res in results:
-                st.success(res)
+            results = []
+            for recipient in email_recipients:
+                result = send_email_via_gmail(email_subject, st.session_state.email_body, recipient)
+                results.append(result)
+                st.success(result)
+
+                # Stop on rate/daily limit
+                if "rate limit" in result.lower() or "quota" in result.lower() or "daily limit" in result.lower():
+                    st.warning("🚫 Gmail API limit reached. Stopping further emails.")
+                    break
+
             st.session_state.email_ready = False  # Reset after sending
