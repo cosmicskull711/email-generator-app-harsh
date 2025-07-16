@@ -1,38 +1,24 @@
 import streamlit as st
-import base64
-import os
-import csv
-import json
 from email.mime.text import MIMEText
-from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
+import base64
+import csv
+import os
+from utils import get_gmail_service
 
-# === Send Email via Gmail ===
+# === Gmail API Email Sending Function ===
 def send_email_via_gmail(subject, body, recipient):
     try:
-        token_info = json.loads(st.secrets["token"])
-        creds = Credentials.from_authorized_user_info(token_info, ['https://www.googleapis.com/auth/gmail.send'])
-        service = build('gmail', 'v1', credentials=creds)
-
+        service = get_gmail_service()
         message = MIMEText(body)
         message['to'] = recipient
         message['subject'] = subject
-
         raw = base64.urlsafe_b64encode(message.as_bytes()).decode()
         message = {'raw': raw}
-
         sent_message = service.users().messages().send(userId="me", body=message).execute()
-        return f"✅ Email sent to {recipient}! ID: {sent_message['id']}"
-
-    except HttpError as e:
-        error_reason = e._get_reason().lower()
-        if "rate limit" in error_reason or "quota" in error_reason or "daily limit" in error_reason:
-            return f"❌ API limit reached: {error_reason}"
-        return f"❌ Failed to send email to {recipient}: {error_reason}"
-
+        return f"Email sent successfully to {recipient}! ID: {sent_message['id']}"
     except Exception as e:
-        return f"❌ Failed to send email to {recipient}: {str(e)}"
+        return f"Failed to send email to {recipient}: {str(e)}"
 
 # === Read Emails from CSV ===
 def read_recipients_from_csv(filename):
@@ -65,11 +51,15 @@ st.set_page_config(
     initial_sidebar_state='collapsed'
 )
 
+# OPTIONAL BACKGROUND IMAGE — skip if not needed
+
 st.header("Generate & Send Emails 📧")
 
+# ✅ Use relative path for deployment
 form_content_file = "email_template.txt"
 default_text = read_content_from_file(form_content_file)
 
+# Prefill the text area with editable content
 form_input = st.text_area('Enter the email topic or message', value=default_text, height=275)
 
 col1, col2 = st.columns(2)
@@ -77,7 +67,7 @@ with col1:
     email_sender = st.text_input('Sender Name')
     email_subject = st.text_input('Email Subject')
 with col2:
-    email_csv_file = "emails.csv"
+    email_csv_file = "emails.csv"  # must also be in repo
     email_recipients = read_recipients_from_csv(email_csv_file)
     email_style = st.selectbox(
         'Writing Style',
@@ -85,6 +75,7 @@ with col2:
         index=0
     )
 
+# Session state to track email generation
 if "email_body" not in st.session_state:
     st.session_state.email_body = ""
 if "email_ready" not in st.session_state:
@@ -101,15 +92,7 @@ if st.session_state.email_ready:
 
     if st.button("Send Email via Gmail"):
         with st.spinner("Sending Email..."):
-            results = []
-            for recipient in email_recipients:
-                result = send_email_via_gmail(email_subject, st.session_state.email_body, recipient)
-                results.append(result)
-                st.success(result)
-
-                # Stop on rate/daily limit
-                if "rate limit" in result.lower() or "quota" in result.lower() or "daily limit" in result.lower():
-                    st.warning("🚫 Gmail API limit reached. Stopping further emails.")
-                    break
-
+            results = [send_email_via_gmail(email_subject, st.session_state.email_body, recipient) for recipient in email_recipients]
+            for res in results:
+                st.success(res)
             st.session_state.email_ready = False  # Reset after sending
