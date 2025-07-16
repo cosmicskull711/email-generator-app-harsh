@@ -1,6 +1,6 @@
-Dear Hiring Manager,
+Dear HR / Hiring Manager,
 
-I’m writing to express my interest in Software Development Engineer roles. Over the past year, I’ve worked as a practical and reliable developer in industrial environments, building production-ready systems that teams depend on daily. My focus has always been on writing clear, maintainable code that supports essential operations without unnecessary complexity.
+I’m writing to express my interest in Software Development Engineer roles at your organisation. Over the past year, I’ve worked as a practical and reliable developer in industrial environments, building production-ready systems that teams depend on daily. My focus has always been on writing clear, maintainable code that supports essential operations without unnecessary complexity.
 
 In my recent role at Continental, I designed and maintained backend services powering six production lines, using Python and C++. These systems improved real-time data accuracy by approximately 50%, helping reduce downtime and improve consistency. I also engineered ICONICS and DOPAC dashboards that nearly halved manual QA efforts, enabling teams to monitor and address issues live, rather than waiting for periodic checks.
 
@@ -27,7 +27,7 @@ What I bring:
 -A mindset geared toward building dependable, maintainable software—not just flashy features.
 
 
-I’d appreciate the opportunity to discuss how my practical skills can support your engineering goals. Thanks for your time and consideration.
+I’d appreciate the opportunity to discuss how my practical skills can support your organization goals. Thanks for your time and consideration.
 
 Best regards,
 
