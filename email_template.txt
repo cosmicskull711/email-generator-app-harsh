@@ -7,7 +7,7 @@ In my current role as Senior Engineer – Data Generation & Data Quality, I:
 * Built & maintained 12+ microservices** for real‑time data ingestion and transformation across three production sites, cutting QA effort by 35%.
 * Designed an Edge Device Manager** to orchestrate containerized apps on 60+ devices via AWS and GitHub, reducing provisioning time by 45%.
 * Integrated Swagger‑based APIs** for remote configuration, authentication, and monitoring—standardizing deployments and eliminating manual errors.
-* Optimized PLC logic & OPC‑UA pipelines**, boosting system throughput by 18% and increasing defect detection accuracy by 22%.
+* Optimized PLC logic & OPC‑UA pipelines, boosting system throughput by 18% and increasing defect detection accuracy by 22%.
 * Delivered 60+ Agile sprint deliverables** in Jira‑driven workflows, collaborating with global cross‑functional teams.
 
 Key projects that demonstrate my full‑stack and real‑time expertise:
@@ -24,7 +24,11 @@ What I bring:
 I’d welcome the opportunity to discuss how my practical, automation‑driven approach can help your team deliver reliable, high‑impact software. Thank you for your time and consideration—I’ve attached my resume for your review.
 
 Best regards,
+
 Harsh Dubey
+
 +91 980350598 | [harshdubey082001@gmail.com]
+
 LinkedIn: linkedin.com/in/harsh-dubey-1b169a242
+
 Resume : https://docs.google.com/document/d/1NC1DanMTkRRColxJQ5YriTTTZclrzXFOGNk854GXw_Y/edit?usp=drive_link
