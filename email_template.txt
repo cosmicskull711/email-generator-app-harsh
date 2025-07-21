@@ -1,42 +1,31 @@
-Dear HR / Hiring Manager,
+Dear HR / Hiring Manager,
 
-I’m writing to express my interest in Software Development Engineer roles at your organisation. Over the past year, I’ve worked as a practical and reliable developer in industrial environments, building production-ready systems that teams depend on daily. My focus has always been on writing clear, maintainable code that supports essential operations without unnecessary complexity.
+I’m excited to apply for Software Development Engineer roles at your organization. With over two years of hands‑on experience at Continental India, I’ve architected and delivered scalable, real‑time data systems that production teams rely on daily. My focus is always on writing clear, maintainable code and automating workflows to eliminate manual effort and streamline operations.
 
-In my recent role at Continental, I designed and maintained backend services powering six production lines, using Python and C++. These systems improved real-time data accuracy by approximately 50%, helping reduce downtime and improve consistency. I also engineered ICONICS and DOPAC dashboards that nearly halved manual QA efforts, enabling teams to monitor and address issues live, rather than waiting for periodic checks.
+In my current role as Senior Engineer – Data Generation & Data Quality, I:
 
-I also gained international exposure during workshops in Germany, China, and Thailand—delivering SCADA dashboard integrations that reduced information lag by ~40%. Those experiences strengthened my ability to work effectively across teams and locations.
+* Built & maintained 12+ microservices** for real‑time data ingestion and transformation across three production sites, cutting QA effort by 35%.
+* Designed an Edge Device Manager** to orchestrate containerized apps on 60+ devices via AWS and GitHub, reducing provisioning time by 45%.
+* Integrated Swagger‑based APIs** for remote configuration, authentication, and monitoring—standardizing deployments and eliminating manual errors.
+* Optimized PLC logic & OPC‑UA pipelines**, boosting system throughput by 18% and increasing defect detection accuracy by 22%.
+* Delivered 60+ Agile sprint deliverables** in Jira‑driven workflows, collaborating with global cross‑functional teams.
 
-Key Highlights:
+Key projects that demonstrate my full‑stack and real‑time expertise:
 
--Reliable data systems: Built Python and C++ backend services for six production lines, boosting real-time data accuracy by ~50%.
-
--QA automation: Created ICONICS/DOPAC dashboards that cut manual QA time by ~45% through live analytics.
-
--Edge and control integration: Implemented the COUGAR® system at three facilities to improve data capture by ~50%, and developed an edge-pipeline to monitor tire weight, raising accuracy by ~30%.
-
--Performance optimization: Upgraded control logic (IPC → PLC) to increase throughput by 15% and reduce latency by 20%.
-
--End-to-end delivery: Followed full SDLC cycles, managed Agile sprints in Jira, and earned recognition among Continental’s Top 12 Strategic Projects.
+* IoT‑Enabled Elevator Scheduler**: Led a 3‑member team to prototype an ESP8266‑based booking system, syncing 20+ concurrent users via RESTful APIs and Firebase, improving dispatch efficiency by 35%.
+* Bidly (Real‑Time Two‑Sided Bidding Platform)**: Architected a Next.js/Node.js application with Socket.IO for live updates (<1 s latency), Clerk/OAuth for secure auth, and MongoDB TTL indexing to auto‑expire stale data—achieving <200 ms API response times.
+* Parkinson’s Detection Research**: Co‑authored a paper (ICCCNet 2025) achieving 97.4% accuracy using Python, Gradient Boosting, and advanced signal‑processing features.
 
 What I bring:
 
--Proficient in Python, C++, OPC-UA, dashboard tools, PLC/IPC logic, and edge-device pipelines.
+* Strong proficiency in **JavaScript/TypeScript, C++, Python, SQL**, and frameworks like **Next.js, React, Node.js**.
+* Expertise in **Docker, AWS, OPC‑UA**, CI/CD pipelines, and RESTful API design.
+* A track record of **delivering deployment‑ready solutions** in Agile environments, backed by international workshops in Germany, China, and Thailand.
 
--A structured, Agile-friendly approach with a focus on deployment-ready solutions.
-
--A mindset geared toward building dependable, maintainable software—not just flashy features.
-
-
-I’d appreciate the opportunity to discuss how my practical skills can support your organization goals. Thanks for your time and consideration.
+I’d welcome the opportunity to discuss how my practical, automation‑driven approach can help your team deliver reliable, high‑impact software. Thank you for your time and consideration—I’ve attached my resume for your review.
 
 Best regards,
-
-Harsh Dubey
-
-harshdubey082001@gmail.com 
-
-+91-9810350598
-
-Linkdin: linkedin.com/in/harsh-dubey-1b169a242
-
-Resume: https://docs.google.com/document/d/1NC1DanMTkRRColxJQ5YriTTTZclrzXFOGNk854GXw_Y/edit?usp=drive_link
+Harsh Dubey
++91 980350598 | [harshdubey082001@gmail.com]
+LinkedIn: linkedin.com/in/harsh-dubey-1b169a242
+Resume : https://docs.google.com/document/d/1NC1DanMTkRRColxJQ5YriTTTZclrzXFOGNk854GXw_Y/edit?usp=drive_link
