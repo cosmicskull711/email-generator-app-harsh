@@ -18,9 +18,9 @@ Key projects that demonstrate my full‑stack and real‑time expertise:
 
 What I bring:
 
-* Strong proficiency in **JavaScript/TypeScript, C++, Python, SQL**, and frameworks like **Next.js, React, Node.js**.
-* Expertise in **Docker, AWS, OPC‑UA**, CI/CD pipelines, and RESTful API design.
-* A track record of **delivering deployment‑ready solutions** in Agile environments, backed by international workshops in Germany, China, and Thailand.
+* Strong proficiency in JavaScript/TypeScript, C++, Python, SQL, and frameworks like Next.js, React, Node.js.
+* Expertise in Docker, AWS, OPC‑UA, CI/CD pipelines, and RESTful API design.
+* A track record of delivering deployment‑ready solutions in Agile environments, backed by international workshops in Germany, China, and Thailand.
 
 I’d welcome the opportunity to discuss how my practical, automation‑driven approach can help your team deliver reliable, high‑impact software. Thank you for your time and consideration—I’ve attached my resume for your review.
 
