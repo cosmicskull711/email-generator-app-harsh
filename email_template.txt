@@ -12,8 +12,8 @@ In my current role as Senior Engineer – Data Generation & Data Quality, I:
 
 Key projects that demonstrate my full‑stack and real‑time expertise:
 
-* IoT‑Enabled Elevator Scheduler**: Led a 3‑member team to prototype an ESP8266‑based booking system, syncing 20+ concurrent users via RESTful APIs and Firebase, improving dispatch efficiency by 35%.
-* Bidly (Real‑Time Two‑Sided Bidding Platform)**: Architected a Next.js/Node.js application with Socket.IO for live updates (<1 s latency), Clerk/OAuth for secure auth, and MongoDB TTL indexing to auto‑expire stale data—achieving <200 ms API response times.
+* IoT‑Enabled Elevator Scheduler: Led a 3‑member team to prototype an ESP8266‑based booking system, syncing 20+ concurrent users via RESTful APIs and Firebase, improving dispatch efficiency by 35%.
+* Bidly (Real‑Time Two‑Sided Bidding Platform): Architected a Next.js/Node.js application with Socket.IO for live updates (<1 s latency), Clerk/OAuth for secure auth, and MongoDB TTL indexing to auto‑expire stale data—achieving <200 ms API response times.
 * Parkinson’s Detection Research**: Co‑authored a paper (ICCCNet 2025) achieving 97.4% accuracy using Python, Gradient Boosting, and advanced signal‑processing features.
 
 What I bring:
