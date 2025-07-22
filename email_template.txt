@@ -1,6 +1,8 @@
-Dear HR / Hiring Manager,
+Dear Sir\Ma'am,
 
-I’m excited to apply for Software Development Engineer roles at your organization. With over two years of hands‑on experience at Continental India, I’ve architected and delivered scalable, real‑time data systems that production teams rely on daily. My focus is always on writing clear, maintainable code and automating workflows to eliminate manual effort and streamline operations.
+I hope you're doing well.
+
+I’m writing to express my interest in the Software Development Engineer role. Over the last two years at Continental India, I’ve architected and delivered scalable, real‑time data systems that production teams rely on daily. My focus is always on writing clear, maintainable code and automating workflows to eliminate manual effort and streamline operations.
 
 In my current role as Senior Engineer – Data Generation & Data Quality, I:
 
@@ -31,4 +33,4 @@ Harsh Dubey
 
 LinkedIn: linkedin.com/in/harsh-dubey-1b169a242
 
-Resume : https://docs.google.com/document/d/1NC1DanMTkRRColxJQ5YriTTTZclrzXFOGNk854GXw_Y/edit?usp=drive_link
+Resume : https://drive.google.com/file/d/1pXORhFjk0TR95YFx4jRpxMhkuC_UMb8e/view?usp=drive_link
