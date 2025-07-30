@@ -1,21 +1,23 @@
-Dear Sir\Ma'am,
+Dear Hiring Team,
 
-I'm Harsh Dubey, a Software Engineer with expertise building high-performance, scalable systems using JavaScript/TypeScript, C++, Python, SQL, AWS, Docker, and Git.
+I am a passionate Software Development Engineer with 2+ years of proven success designing and delivering high‑performance, scalable systems using JavaScript/TypeScript, C++, Python, SQL, AWS, Docker, and Git. At Continental India, I architected and maintained 12+ Dockerized, AWS‑powered microservices (Node.js, Express, Swagger, Lambda), which reduced QA cycles by 35% and cut provisioning time by 45%. My work optimizing PLC logic and integrating OPC‑UA interfaces drove an 18% increase in throughput and 22% improvement in defect detection accuracy.
 
-At Continental India, I developed and maintained 12+ Dockerized, AWS-powered backend services (Node.js, Express, Swagger, AWS Lambda), reducing QA efforts by 35% and cutting provisioning time by 45%. Additionally, I optimized PLC logic and OPC-UA integrations, resulting in an 18% throughput increase and 22% improved defect detection accuracy.
+In addition to my core engineering experience, I have collaborated across global teams—leading SCADA dashboard integrations in Germany, China, and Thailand that reduced data‑lag by ~40%. I thrive in Agile environments, contribute clean, well‑tested code (95%+ coverage with Jest/Mocha), and enjoy mentoring peers to elevate overall team productivity.
 
-I also gained international exposure during workshops in Germany, China, and Thailand—delivering SCADA dashboard integrations that reduced information lag by ~40%. Those experiences strengthened my ability to work effectively across teams and locations.
+Key Highlights:
 
+Bidly (Real‑Time Bidding Platform): Next.js, React, TypeScript, Tailwind CSS, MongoDB Atlas (TTL), Socket.IO, Auth (Clerk/JWT) — achieved <200 ms API latency and <1 s live updates.
 
-Notable projects include:
+IoT‑Enabled Elevator Scheduler: Embedded C/C++, ESP8266, Bluetooth, Node.js, Firebase — orchestrated 20+ concurrent sessions, boosting dispatch efficiency by 35%.
 
-- Bidly: Real-Time Two-Sided Bidding Platform: Built on Next.js 15, React 19, TypeScript, Tailwind CSS, MongoDB Atlas (TTL), Mongoose, Socket.IO, Clerk Auth, JWT, Node.js, and deployed on Vercel, achieving <200 ms API latency, <1 second live updates, and efficient data cleanup using MongoDB’s TTL.
+Best Practices: RESTful API design (50K+ daily requests), microservices architecture, container orchestration (Kubernetes), CI/CD pipelines (GitHub Actions), TDD and System Design.
 
-- ⁠IoT-Enabled Elevator Scheduler: Leveraged Embedded C/C++, ESP8266, HC-05 Bluetooth, Node.js, and Firebase to develop REST APIs syncing 20+ concurrent sessions, boosting elevator dispatch efficiency by 35%.
+I am excited to contribute this blend of hands‑on development, architectural vision, and cross‑functional collaboration to your team. I welcome the opportunity to discuss how my background and drive for technical excellence can help achieve your organization’s goals.
 
-I’m enthusiastic about the opportunity to bring this experience to a relevant role. I would welcome a conversation to discuss how my background aligns with your team's objectives.
+Thank you for your consideration.
 
-Best regards,  
-Harsh Dubey | ‪+91-9810350598‬ | harshdubey082001@gmail.com 
-LinkedIn - https://www.linkedin.com/in/harsh-dubey-1b169a242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-Resume : https://drive.google.com/file/d/1oIsGMgEZtXYnptYbAxk0SUf_Lz_1b7xI/view?usp=drive_link
+Best regards,
+Harsh Dubey
++91‑98103 50598 | harshdubey082001@gmail.com
+LinkedIn: linkedin.com/in/harsh‑dubey‑1b169a242
+Resume: https://drive.google.com/file/d/1HP6kBMhhDR7QOobshtMk4K8D-3AMXzZM/view?usp=sharing
